@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    background-color: rgb(10, 25, 47);
+    color: rgb(136, 146, 176);
+    line-height: 1.3;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+.header{
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+.header li{
+    position: relative;
+    display: inline;
+    left: 60%;
+    bottom: 2px;
+    margin: 10px; 
+    
+}
+
+.header li a{
+    text-decoration: none;
+    color: rgb(68, 239, 234);
+    font-family:"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 18px;
+}
+
+.header i{
+    width: max-content;
+    padding: 5px;
+    position: relative;
+    font-size: 30px;
+    left: 20px;
+    top: 15px;
+    color: rgb(68, 239, 234);
+    border:2px solid;
+    border-radius:18px;
+    
+}
+
+footer a:hover, .contacts a:hover, img:hover, .about a:hover, .intro a:hover, i:hover, .header li a:hover{
+    color: rgba(122, 160, 45, 0.557);
+    transform: translateX(2px);
+    transition-duration: 0.5s;
+    opacity: 70%;
+    
+}
+
+.icons {
+    position: fixed;
+    width: max-content;
+    height: min-content;
+    background: transparent;
+    margin-left: -160px;
+    bottom: -400px;
+    
+}
+.icons li{
+    margin: 10px; 
+}
+ .main{ 
+     
+     width:1050px;
+     margin-left: 140px;
+     margin-top: 50px;
+ }
+
+.intro{
+    width: max-content;
+}
+.intro p{
+   font-weight: bold;
+   color:rgb(204, 214, 246);
+    font-size: 60px;
+}
+
+.intro a{
+    text-decoration: none;
+    color: rgb(68, 239, 234);
+    font-size: 70px;
+}
+span{
+    color: red;
+    font-size: 60px;
+    
+}
+.icons::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: rgb(168, 178, 209);
+    margin: 0px auto;
+    
+}
+
+#hello{
+    border:1px rgb(68, 239, 234) groove;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+ 
+ .about h1 {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 32px;
+    margin-top: 200px;
+    color:rgb(204, 214, 246);
+}
+.about{
+    color: rgb(136, 146, 176);
+    line-height: 1.3;
+    font-size: 20px;
+}
+.about p{
+    width: 50%;
+    text-align: justify;
+}
+
+.about a{
+    text-decoration: none;
+    color:rgb(68, 239, 234);
+}
+
+ img{
+     height: auto;
+     cursor: pointer;
+     width: 200px;
+     float: right;
+     margin-right:200px ;
+     border:rgb(68, 239, 234) groove;
+     border-radius: 20px;
+     transition-timing-function: ease-in-out;
+     transition: 2s;
+ }
+
+ img:hover{
+     border: khaki solid;
+     border-radius:30px ;
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+ 
+.projects{
+    margin-top: 300px;
+}
+.projects h1{
+    font-size: 32px;
+    color:rgb(204, 214, 246);
+}
+ 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding:10px;
+  padding-top: 40px;
+  padding-left: 0px;
+  grid-gap: 10px;
+}
+.grid-item {
+  background-color: rgb(23, 42, 69);
+  border: 0.5px solid rgba(0, 0, 0, 0.448);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  height: 400px;
+  cursor: pointer;
+}
+
+.grid-item:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.contacts{
+    height: 40px;
+    width: max-content;
+    
+    margin-top: 200px;
+    margin-left: 40%;
+    align-content: center;
+    border-radius: 5px;
+    
+}
+.contacts a{
+    text-decoration: none;
+    color: springgreen solid;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer{
+    margin-left: 25%;
+    margin-top:50px ;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(68, 239, 234);
+    padding: 10px;
+}
