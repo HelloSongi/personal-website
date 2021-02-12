@@ -1,0 +1,149 @@
+body{
+    background-color: #0a192f;
+    font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    color: #a8b2d1;
+    font-size: 18px;
+    
+}
+nav{
+    display: flex; 
+    background-color:rgba(92, 92, 11, 0.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.icon{
+    padding: 20px;
+    
+}
+.icon a{
+    color: #64ffda;
+    border:1px solid;
+    border-radius: 50%;
+    padding:5px 5px 0px 5px;
+}
+
+
+.icon a:hover{
+    background-color: #64ffdb2b;
+}
+
+.content{    
+    float: right;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ol li{
+    padding: 10px;
+    margin:10px;
+    list-style: none;
+    float: left;
+    border:1px solid #64ffda;
+    border-radius:2px;
+}
+ol li:hover{
+    background-color:#64ffdb2b;
+}
+a:link{
+    color: #64ffda;
+}
+a:visited{
+    color:#64ffda;
+}
+a:hover{
+    text-decoration:none;
+}
+
+div.intro{
+    text-align:center;
+    margin-top:50px;
+    
+}
+
+.name{
+    font-size: 100px;
+    color: #ccd6f6;
+    font-weight: bold;
+}
+.major{
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.email{
+    border: 1px solid #64ffda;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 2px;
+
+}
+.email a{
+    text-decoration: none;
+}
+.email:hover{
+    background-color:#64ffdb2b;
+}
+
+.socials ul li{
+    display: inline-block;
+    margin-top:150px;
+    padding:10px;
+    border-radius: 50%;
+}
+
+.socials ul li:hover{
+    background-color: #64ffdb08;
+}
+
+.line{
+    border-bottom:1px solid;
+    width:5%; 
+    margin: auto;
+    animation: lin 5s linear 1s infinite alternate;
+}
+@keyframes lin{
+    from{width:5%;}
+    to{width:95%;}
+}
+
+#about{
+    margin-top:200px;
+    padding:0px 150px 0px 150px;
+    overflow: auto;
+    
+}
+.heading1{
+    border-bottom: 0.5px solid;
+    padding-bottom:5px;
+    margin-bottom: 50px;
+    width: 60%;
+    
+}
+#about p{
+    width: 40%;
+}
+.profile{
+    float: right;
+    border: 2px solid #64ffda;
+    width:-30%;
+    height: -30%;
+    border-radius: 5px;
+    margin-right:200px;
+
+}
+
+#about ul{
+    width:50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style: none;
+    font-size:15px;
+    padding-left:0px;
+    
+}
+
+#about ul li{
+    padding-bottom: 5px;
+    color:#ccd6f6;
+}
+
